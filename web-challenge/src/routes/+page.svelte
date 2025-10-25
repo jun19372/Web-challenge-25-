@@ -45,7 +45,8 @@
 
 
 <!-- modal -->
-<div class="modal-bg hidden ">
+ 
+<div class="modal-bg">
     <div class="modal-popup bg-secondary">
         <h1>Laptimes for 10/1</h1>
         <div>8.33'</div>
