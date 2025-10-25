@@ -1,0 +1,64 @@
+<!-- best / avg toggle -->
+<div class="mode">
+  <button>Best</button>
+  <button>Avg</button>
+</div>
+
+<div class="boxes">
+
+  {#each [18.4, 7.9, 111] as v}
+  <div class="box">
+    <div>10/01</div>
+    <div>BEST: {v}'</div>
+    <div>+0.12</div>
+  </div>
+  {/each}
+
+  <div class="box2">
+    <div>
+      <div>10/01</div>
+      <div>BEST: 4.35'</div>
+      <div>+0.12</div>
+      <div>8.33'</div>
+      <div>8.33'</div>
+      <div>8.33'</div>
+      <div>8.33'</div>
+      <div>8.33'</div>
+      <div>8.33'</div>
+      <div>8.33'</div>
+      <div>8.33'</div>
+    </div>
+    <div>
+      
+    </div>
+  </div>
+
+</div>
+
+<style>
+    .boxes {
+        margin-top: 20px;
+    }
+
+    .box {
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .box > div {
+        background: lightblue;
+    }
+
+    .box2 {
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        display: flex;
+    }
+</style>
