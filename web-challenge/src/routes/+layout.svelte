@@ -15,7 +15,7 @@
 		</a>
 		<a class="w-1/2 h-full" href="/stats">
 			<button class="w-full h-full btn btn-ghost btn-primary"
-				>Stats</button
+				>Stats</button>
 			>
 		</a>
 	</div>
