@@ -17,37 +17,36 @@
         <th>10/1</th>
         <td>Best: 18.4</td>
         <td>+0.12</td>
-        <td class="btn">View more</td>
+        <td class="btn" onclick={()=> my_modal_1.showModal()}>View more</td>
       </tr>
       <!-- row 2 -->
       <tr>
         <th>10/2</th>
         <td>Best: 7.9</td>
         <td>+0.12</td>
-        <td class="btn">View more</td>
+        <td class="btn" onclick={()=> my_modal_2.showModal()}>View more</td>
       </tr>
       <!-- row 3 -->
       <tr>
         <th>10/3</th>
         <td>11.1</td>
         <td>+0.12</td>
-        <td class="btn">View more</td>
+        <td class="btn" onclick={()=> my_modal_3.showModal()}>View more</td>
       </tr>
       <!--row 4-->
       <tr> 
         <th>10/4</th> 
         <td>Best: 6.767</td>
         <td>+0.12</td>
-        <td class="btn">View more</td> 
+        <td class="btn" onclick={()=> my_modal_4.showModal()}>View more</td> 
     </tbody>
   </table>
 </div>
 
 
 <!-- modal -->
- 
-<div class="modal-bg">
-    <div class="modal-popup bg-secondary">
+<dialog id="my_modal_1" class="modal">
+  <div class="modal-box bg-secondary">
         <h1>Laptimes for 10/1</h1>
         <div>8.33'</div>
         <div>8.33'</div>
@@ -55,9 +54,53 @@
         <div>8.33'</div>
         <div>8.33'</div>
         <div>8.33'</div>
-        <button class="btn btn-primary">x</button>
+        <form method="dialog" class="modal-backdrop">    
+      <button onclick={() => dispatch('close')} class="btn btn-primary">x</button>
+    </form>
     </div>
-</div>
+</dialog>
+
+<dialog id="my_modal_2" class="modal">
+  <div class="modal-box bg-secondary">
+        <h1>Laptimes for 10/2</h1>
+        <div>8.33'</div>
+        <div>7.01'</div>
+        <div>10.13'</div>
+        <div>7.9'</div>
+        <div>9,03'</div>
+        <div>14.04'</div>
+        <form method="dialog" class="modal-backdrop">    
+      <button onclick={() => dispatch('close')} class="btn btn-primary">x</button>
+    </form>
+    </div>
+</dialog>
+
+<dialog id="my_modal_3" class="modal">
+    <div class="modal-box bg-secondary">
+        <h1>Laptimes for 10/3</h1>
+        <div>8.33'</div>
+        <div>8.33'</div> 
+        <div>6.7</div>
+        <div>6.9</div>
+         <form method="dialog" class="modal-backdrop">    
+      <button onclick={() => dispatch('close')} class="btn btn-primary">x</button>
+    </form>
+        </div>
+</dialog>
+
+<dialog id="my_modal_4" class="modal">
+    <div class="modal-box bg-secondary">
+        <h1>Laptimes for 10/4</h1>
+        <div>8.45</div>
+        <div>6.04</div>
+        <div>8.05</div>
+        <div>9.023</div>
+         <form method="dialog" class="modal-backdrop">    
+      <button onclick={() => dispatch('close')} class="btn btn-primary">x</button>
+    </form>
+    </div>
+</dialog>
+
 
 <style>
     .mode{
