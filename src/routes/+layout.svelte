@@ -14,7 +14,7 @@
   >
     <a class="w-1/2 h-full" href="/">
       <button class="w-full h-full btn btn-ghost btn-primary transition-colors">
-        🏊‍♂️ Log
+        💻 Log
       </button>
     </a>
     <a class="w-1/2 h-full" href="/stats">

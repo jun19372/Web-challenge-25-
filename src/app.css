@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: aqua --default, aqua --prefersdark;
+  themes: dark --default, aqua --prefersdark;
 }
 
 /* Custom styles for swimming app */

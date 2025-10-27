@@ -127,7 +127,8 @@
 
 <div class="bg-primary text-primary-content p-6 mb-6 rounded-lg shadow-lg">
   <div class="text-center mb-4">
-    <h1 class="text-3xl font-bold mb-2">🏊‍♂️ Swim Tracker</h1>
+    <h1 class="text-3xl font-bold mb-2">Velox</h1>
+    <h2 class="text-3x-1 font-bold mb-1">Swimming mode 🏊</h2> 
   </div>
 
   <div class="grid grid-cols-2 gap-4 mb-4">
